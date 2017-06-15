@@ -2,9 +2,10 @@
 public class Planetarium {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Welcome to Planetarium");
-
+		Terrestrial terrestrial = new Terrestrial();
+	
+		System.out.println(result);
+		
 	}
 
 }
