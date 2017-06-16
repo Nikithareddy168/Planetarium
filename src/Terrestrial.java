@@ -14,6 +14,6 @@ public class Terrestrial extends Planet{
 	}
 
 	public String getFactualSummary() {
-		return "Common Name : "+ commonName +"\nCC : "+getCelestialClass()+super.getFactualSummary() + "hasIceCaps: " + hasIceCaps + "\n";
+		return "Common Name : "+ commonName +"\nCelestial Classifications : "+getCelestialClass()+super.getFactualSummary() + "Has IceCaps? : " + hasIceCaps + "\n";
 	}
 }

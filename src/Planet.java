@@ -13,7 +13,7 @@ public abstract class Planet extends AstroEntity {
 		String satellites = "";
 		if (this.numOfSatellites > 0)
 			for (int i = 0; i < threeBigSatellites.length; i++) {
-				satellites = satellites + threeBigSatellites[i] + " ";
+				satellites = satellites + threeBigSatellites[i] + "";
 			}
 		return satellites;
 	}
@@ -31,9 +31,8 @@ public abstract class Planet extends AstroEntity {
 	@Override
 
 	public String getFactualSummary() {
-		return /*"Common Name : " + this.commonName + "\nCelestial Classification : " + this.getCelestialClass()
-				+ */"\nDistance From Sun :" + distFromSun + "\nSideRealDay : " + siderealDay + "\nOrbitalPeriod : "
-				+ orbitalPeriod + "\nHas rings : " + hasRings + "\n NumOfSatellites : " + numOfSatellites + "\nSatelliteNames : " + this.retSatellNames()
+		return  "\nDistance From Sun :" + distFromSun +" AU"+ "\nSideRealDay : " + siderealDay + "\nOrbitalPeriod : "
+				+ orbitalPeriod + "\nHas rings? : " + hasRings + "\nNumOfSatellites : " + numOfSatellites + "\nSatelliteNames : " + this.retSatellNames()
 				+ "\n";
 
 	}
