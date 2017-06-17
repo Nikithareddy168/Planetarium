@@ -1,4 +1,7 @@
+import java.util.Date;
 
-public interface CelestialVisitor {
-
+public abstract interface CelestialVisitor {
+		public abstract  Date lastAppearedOn();
+		public abstract  Date nextAppearsOn();
+		public abstract  boolean isPredictable();
 }

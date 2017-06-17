@@ -15,7 +15,7 @@ public class GasGaint extends Planet{
 
 	public String getFactualSummary() {
 
-		return "Common Name :"+commonName+super.getFactualSummary() + "hasCloudBelts: " + hasCloudBelts +"\n";
+		return "Common Name :"+commonName+super.getFactualSummary() + "Has Cloud Belts: " + hasCloudBelts +"\n";
 
 	}
 }

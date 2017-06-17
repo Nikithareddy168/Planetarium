@@ -5,6 +5,4 @@ public abstract class AstroEntity {
 		public String getFactualSummary(){
 			return "";
 		}
-			
-		
 }

@@ -14,6 +14,6 @@ public class Dwarf extends Planet{
 	}
 
 	public String getFactualSummary() {
-			return "Common Name : "+commonName+super.getFactualSummary() + "HasIrregularShape: " + hasIrregularShape +"\n";
+			return "Common Name : "+commonName+super.getFactualSummary() + "Has Irregular Shape: " + hasIrregularShape +"\n";
 	}
 }

@@ -31,8 +31,8 @@ public abstract class Planet extends AstroEntity {
 	@Override
 
 	public String getFactualSummary() {
-		return  "\nDistance From Sun :" + distFromSun +" AU"+ "\nSideRealDay : " + siderealDay + "\nOrbitalPeriod : "
-				+ orbitalPeriod + "\nHas rings? : " + hasRings + "\nNumOfSatellites : " + numOfSatellites + "\nSatelliteNames : " + this.retSatellNames()
+		return  "\nDistance From Sun :" + distFromSun +" AU"+ "\nSideReal Day : " + siderealDay + "\nOrbital Period : "
+				+ orbitalPeriod + "\nHas rings? : " + hasRings + "\nNumber Of Satellites : " + numOfSatellites + "\nSatellite Names : " + this.retSatellNames()
 				+ "\n";
 
 	}
