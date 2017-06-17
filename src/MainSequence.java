@@ -2,7 +2,7 @@
 public class MainSequence extends Star{
 	double relativeMass;
 	public String getCelestialClass() {
-		return ("Main Sequence Star");
+		return ("Main Sequence star");
 	}
 	public MainSequence(String commonName, String constellationDesignation,spectralType spec,double appMagnitude, double absMagnitude,double distFromSun,String[] planets,double relativeMass){
 		super(constellationDesignation,Star.spectralType.G,appMagnitude, absMagnitude, distFromSun, planets);
