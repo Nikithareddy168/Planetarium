@@ -6,9 +6,9 @@ public class Dwarf extends Planet{
 		return ("Dwarf Planets");
 	}
 
-	public Dwarf(String commonName, double distFromSun, double siderealDay, double orbitalPeriod,
-			boolean hasRings, int numOfSatellites, String[] threeBigSatellites, boolean hasIrregularShape) {
-			super(distFromSun, siderealDay, orbitalPeriod, numOfSatellites, threeBigSatellites, hasRings);
+	public Dwarf(String commonName, AstroUnit distFromSun, EarthDay siderealDay, EarthDay orbitalPeriod,
+			boolean hasRings, int numOfSatellites, String[] threeBigSatellites, boolean hasIrregularShape,MicroSunUnit relativeMassInMS,EarthMassUnit relativeMassInEM) {
+			super(distFromSun, siderealDay, orbitalPeriod, numOfSatellites, threeBigSatellites, hasRings,relativeMassInMS,relativeMassInEM);
 			this.hasIrregularShape = hasIrregularShape;
 			this.commonName = commonName;
 	}
